@@ -43,5 +43,7 @@ function makeWork(arrOfArr, worker) {
 
 // Задание 3
 function worker2(arr) {
-  return getArrayParams(arr).max - getArrayParams(arr).min
+  getArrayParams(arr)
+  return result.max-result.min
+
 }
